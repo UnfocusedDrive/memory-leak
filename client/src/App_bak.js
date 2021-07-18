@@ -30,24 +30,22 @@ const App = () => {
     });
   };
 
-  /**
-   * credit: https://codepen.io/saransh/pen/BKJun
-   */
   return (
-    <div className="">
-      <div id='stars'></div>
-      <div id='stars2'></div>
-      <div id='stars3'></div>
-      <div id='title'>
-        <span>
-          memoryleak.ai
-        </span>
-        <br />
-        <br />
-        <span>
-          YOU ARE NOT PREPARED
-        </span>
-      </div>
+    <div className="App">
+      <h1>My Tasks</h1>
+
+      <TasksList tasks={tasks} updateTasks={getTasks} />
+
+      <form onSubmit={clickAddTask}>
+        <input
+          type="text"
+          size="30"
+          placeholder="New Task"
+          value={newTaskTitle}
+          onChange={event => setNewTaskTitle(event.target.value)}
+        />
+        <input className="btn-primary" type="submit" value="Add" />
+      </form>
     </div>
   );
 };
