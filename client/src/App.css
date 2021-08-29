@@ -49,3 +49,23 @@ li:hover .delete-button {
 .delete-button:hover {
   opacity: 0.6;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* .desktop */
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
