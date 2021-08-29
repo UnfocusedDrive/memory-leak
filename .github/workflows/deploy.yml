@@ -25,8 +25,10 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           username: ${{ secrets.SSH_USERNAME }}
           script: |
-            # mkdir test
-            # cd test
+            cd /home/apps/memory-leak/client
+            npm run build
+            /var/www/unstable.memoryleak.ai
+            sudo mv -i build/ /var/www/unstable.memoryleak.ai/
             # git clone https://github.com/UnfocusedDrive/memory-leak.git
             echo 'Deployment success'
 
