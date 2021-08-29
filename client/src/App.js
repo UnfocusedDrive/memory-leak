@@ -73,7 +73,7 @@ const App = (props) => {
 
 
 
-  console.log('app');
+  console.log('app is updated!');
 
   return (
     <div className="">
