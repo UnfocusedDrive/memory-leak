@@ -37,5 +37,5 @@ jobs:
             mkdir /var/www/unstable.memoryleak.ai
             sudo mv -i build/* /var/www/unstable.memoryleak.ai/ # move build to serve dir
             # git clone https://github.com/UnfocusedDrive/memory-leak.git
-            echo 'Deployment success'
+            echo 'Successfully deployed to unstable.memoryleak.ai'
 

@@ -1,9 +1,10 @@
 {
-  "name": "simple-mern",
-  "version": "0.2.0",
+  "name": "@nurvus/client",
+  "version": "0.0.0-alpha.0",
   "private": true,
   "proxy": "http://localhost:5000",
   "dependencies": {
+    "@nurvus/ui": "git+https://github.com/UnfocusedDrive/nurvus-design-system.git#main",
     "classnames": "^2.3.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
