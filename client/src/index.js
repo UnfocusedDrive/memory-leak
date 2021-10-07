@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import './ai.css';
 // import App from './App_bak';
-import App from './App';
+
+// export default function NextApp() {
+
+import NextApp from './NextApp.jsx';
 
 
 const tokens = {
@@ -11,4 +14,4 @@ const tokens = {
   '--outer': '#090a0f',
 };
 
-ReactDOM.render(<App tokens={ tokens } />, document.getElementById('root'));
+ReactDOM.render(<NextApp tokens={ tokens } />, document.getElementById('root'));

@@ -3,6 +3,8 @@ import Color from './Color.jsx';
 import Layout from './Layout.jsx';
 
 export default function Modal(props) {
+
+  return null;
   const { children, onChange } = props;
 
 
