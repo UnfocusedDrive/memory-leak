@@ -1,3 +1,9 @@
-export Button from './components/Button';
-export Progress from './components/Progress/Progress';
-export StackLayout from './components/StackLayout/StackLayout';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const App = () => {
+  return 'asdsadas';
+}
+
+
+ReactDOM.render(<App />, document.getElementById('root'));

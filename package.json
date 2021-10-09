@@ -13,6 +13,7 @@
     "build": "webpack"
   },
   "dependencies": {
+    "@nurvus/ui": "git+https://github.com/UnfocusedDrive/nurvus-design-system.git#main",
     "lodash": "^4.17.20",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
