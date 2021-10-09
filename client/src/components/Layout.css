@@ -1,7 +1,0 @@
-.ns-layout {
-  display: flex;
-}
-
-.ns-layout > * + * {
-  margin-left: 20px;
-}
