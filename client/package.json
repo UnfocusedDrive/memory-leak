@@ -4,10 +4,11 @@
   "private": true,
   "proxy": "http://localhost:5000",
   "dependencies": {
-    "@nurvus/ui": "git+https://github.com/UnfocusedDrive/nurvus-design-system.git#main",
+    "@nurvus/ui": "git+https://github.com/UnfocusedDrive/nurvus-design-system.git#r16.backport",
     "classnames": "^2.3.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "node-sass": "^6.0.1",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
     "react-scripts": "2.1.2"
   },
   "scripts": {

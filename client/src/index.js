@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import './ai.css';
 // import App from './App_bak';
-import App from './App';
+// import App from './App'; // main app
+import App from './experimental/App'; // experimental stuff
 
 
 const tokens = {
